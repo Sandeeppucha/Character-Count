@@ -1,0 +1,9 @@
+.list-style {
+  list-style-type: none;
+}
+
+.list-para {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}

@@ -1,0 +1,85 @@
+.app-container {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+
+.left-container {
+  background-color: #ffc533;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  min-height: 90vh;
+  min-width: 48vw;
+}
+
+.right-container {
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  min-height: 90vh;
+  min-width: 48vw;
+}
+
+.no-inputs-image {
+  height: 250px;
+  width: 350px;
+  margin-top: 25px;
+}
+
+.characters-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+  color: #272c47;
+  max-width: 500px;
+  margin-left: 25px;
+}
+
+.right-characters-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffbf1f;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+.user-inputs {
+  height: 40px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+  color: #475569;
+  padding: 10px;
+  width: 80%;
+  margin-right: 20px;
+}
+
+.inner-container {
+  display: flex;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.add-button {
+  background-color: #ffbf1f;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  height: 40px;
+  text-align: center;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+  width: 90px;
+  margin-left: 10px;
+  cursor: pointer;
+}
